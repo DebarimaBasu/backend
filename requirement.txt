@@ -1,5 +1,6 @@
-pandas
+fastapi
+uvicorn
+gunicorn
+scikit-learn
 numpy
-jupyter
-notebook
-
+pydantic

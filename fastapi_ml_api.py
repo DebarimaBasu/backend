@@ -78,7 +78,7 @@ app.add_middleware(
 )
 
 # ✅ Load model (ensure file exists)
-model_path = r"C:\Users\I3 10TH GEN\Desktop\cancerPrediction\model.pkl"
+model_path = r"model.pkl"
 
 if not os.path.exists(model_path):
     print(f"❌ Model file not found at {model_path}")

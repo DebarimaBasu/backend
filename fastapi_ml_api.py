@@ -71,7 +71,10 @@ app = FastAPI()
 # ✅ Add CORS Middleware (before defining routes)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Change this to your frontend URL for security
+   allow_origins=[
+        "http://localhost:5173",               # for local dev
+        "https://cosmos104.netlify.app"        # for deployed frontend
+    ],  # Change this to your frontend URL for security
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

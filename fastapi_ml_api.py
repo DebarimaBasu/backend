@@ -75,7 +75,8 @@ app.add_middleware(
         "http://localhost:5173",               # for local dev
         "https://cosmos104.netlify.app" ,
        "https://predicanew.netlify.app",
-       "https://predica.netlify.app"# for deployed frontend
+       "https://predica.netlify.app",
+       "https://cosmos18.netlify.app"# for deployed frontend
     ],  # Change this to your frontend URL for security
     allow_credentials=True,
     allow_methods=["*"],
